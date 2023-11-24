@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>...</title>
+    <link type="image/x-icon" rel="shortcut icon" href="image/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box__container">
+            <div class="box">
+                <h1 class="box__title">Лабораторная работа №14</h1>
+                <p class="box__text">Приложение для формирования двухмерной матрицы:</p>
+                <div class="box__inputs-container">
+                    <input type="number" class="box__input" id="input-a" placeholder="Начало массива">
+                    <input type="number" class="box__input" id="input-b" placeholder="Конец массива">
+                </div>
+                <button class="box__btn" id="btn">Создать</button>
+                <p class="error hide-error" id="error"></p>
+
+
+                <div class="box__inputs hide-table">
+                    <h2 class="box__inputs-title">Таблица:</h2>
+                    <p class="box__text">Введите в эти текстовые поля число, которые вы хотите увидеть в своем массиве:</p>
+                    <div class="box__inputs-table" id="created-inputs">
+                        
+                    </div>
+                    <button class="box__btn box__btn-create" id="btn-create-array">Создать массив</button>
+                    <div class="answear__array" id="answear-array" style="display: none;">
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
